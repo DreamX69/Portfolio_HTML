@@ -5,125 +5,180 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Methasit</title>
+    <link rel="stylesheet" type="text/css" href="/style/index.css" />
+    <script
+      src="https://kit.fontawesome.com/2b270013fd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div>
-      <center>
-        <h5>Hello I'm</h5>
+    <section id="headder">
+      <div class="container headder">
+        <h5 style="color: var(--color-white)">Hello I'm</h5>
         <h1>Methasit Watchararattnakul</h1>
         <h5>
           <i>Undergraduate student</i>
         </h5>
-        <hr />
-        <h5>Get To Know</h5>
-        <h2>About Me</h2>
-        <img
-          src="./Picture/6352300774.png"
-          alt="My Pic"
-          width="300"
-          height="300"
-        />
-        <br /><br />
-        <i>
-          I'm studying for a bachelor's degree Faculty of Engineering and
-          Technology Computer Branch Engineering and Artificial Intelligence I
-          am very determined to work. I have a basic idea about code
-        </i>
-        <br /><br />
-        <i
-          >I'm ready to learn new things I'm Likes technology and likes
-          challenges at work.</i
-        >
-        <h3>Work Experience</h3>
-        <i>Internship in JONN Power Idea Company 6 month</i>
-        <br /><br />
-        <i>Job title Full Stack Developer</i>
-        <h3>My Education</h3>
-        <i
-          >Study at Panyapiwat Institute of Management.<a
-            href="https://www.pim.ac.th/"
-            target="_blank"
-            >(PIM)</a
-          ></i
-        >
-      </center>
-      <hr />
-      <center>
-        <h5>What Skills I Have</h5>
-        <h2>My Experience</h2>
-      </center>
-      <ul>
-        <h3>
-          <i>
-            <u>Frontend Development</u>
-          </i>
-        </h3>
-        <li>
-          <h4>HTML</h4>
-        </li>
-        <small>Expert</small>
-        <li>
-          <h4>CSS</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>JavaScript</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Jquery</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>React</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Xml</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Handlebars</h4>
-        </li>
-        <small>Basic</small>
-      </ul>
-      <hr />
-      <ul>
-        <h3>
-          <i>
-            <u>Backend Development</u>
-          </i>
-        </h3>
-        <li>
-          <h4>Python</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Java</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>C#</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Node JS</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Postgresql</h4>
-        </li>
-        <small>Intermidate</small>
-        <li>
-          <h4>Microsoft sql server</h4>
-        </li>
-        <small>Intermidate</small>
-      </ul>
-      <hr />
-      <center>
-        <h2><a href="contact.html">Contact Me</a></h2>
-        <h2><a href="report.html">Work Report</a></h2>
-      </center>
-    </div>
+        <div class="header-btn">
+          <a href="contact.html" class="btn btn-primary"> Contact Me </a>
+          <a href="report.html" class="btn btn-primary">Work Report</a>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <hr class="hr-dot" />
+
+    <section id="about">
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div class="container about__container">
+        <div class="about__me">
+          <div class="about__me-image">
+            <img src="/Picture/6352300774b.jpg" alt="About Image" />
+          </div>
+        </div>
+        <div class="about__content">
+          <div class="about__cards">
+            <article class="about__card">
+              <i class="fa-solid fa-laptop about__icon"></i>
+              <h5>Work Experience</h5>
+              <small>Internship in JONN Power Idea Company 6 month</small>
+            </article>
+
+            <article class="about__card">
+              <i class="fa-solid fa-school-flag about__icon"></i>
+              <h5>My Education</h5>
+              <small>
+                <a
+                  href="https://www.pim.ac.th/"
+                  target="_blank"
+                  style="color: var(--color-light)"
+                >
+                  Study at Panyapiwat Institute of Management. (PIM)
+                </a>
+              </small>
+            </article>
+
+            <article class="about__card">
+              <i class="fa-solid fa-folder about__icon"></i>
+              <h5>Projects</h5>
+              <small>7+ Completed</small>
+            </article>
+          </div>
+
+          <p>
+            I'm studying for a bachelor's degree in computer engineering. I am
+            very determined to work. I have a basic idea about code I'm ready to
+            learn new things I'm Likes technology and likes challenges at work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr-dot" />
+
+    <section id="experience">
+      <h5>What Skills I Have</h5>
+      <h2>My Experience</h2>
+      <div class="container experience__container">
+        <div class="experince__frontend">
+          <h3>Frontend Development</h3>
+          <div class="experience__content">
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>HTML</h4>
+                <small class="text-light">Expert</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>CSS</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>JavaScript</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Jquery</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>React</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Xml</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="experince__backend">
+          <h3>Backend Development</h3>
+          <div class="experience__content">
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Python</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Java</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>C#</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Node JS</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Postgresql</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+            <article class="experince__details">
+              <i class="fa-solid fa-circle-check experience__details-icon"></i>
+              <div>
+                <h4>Microsoft sql server</h4>
+                <small class="text-light">Intermidate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
