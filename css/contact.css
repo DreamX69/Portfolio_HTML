@@ -32,7 +32,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url("/Picture/bg-dot.png");
+  background-image: url("/Portfolio_HTML/Picture/bg-dot.png");
 }
 
 ::-webkit-scrollbar {
